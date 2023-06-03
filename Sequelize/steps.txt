@@ -1,0 +1,18 @@
+
+1.npm init
+2. npm i mysql
+
+3.goto mysql connect localinstance and got database option and select manage connection to know the connection details and make changes as required.
+4.create first_sql_connection.js and create a connection and connect. if error occurs run the following in mysql workbench.
+alter user 'root'@'localhost' identified with
+mysql_native_password by '#PerExcellent#';
+
+5.now try reconnecting.
+6.you can then start using queries.
+
+SEQUELIZE
+
+1.npm i sequelize
+2.connect to the mysql using sequelize and mysql2 in connection.js and export the sequelizeInstance.
+3.in Users.js inside model dir,import connection and define the model(user model) export the return function stored in Users.
+4.then in userController inside controller you import and utilize the model for querying.

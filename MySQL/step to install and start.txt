@@ -1,0 +1,13 @@
+1. download mysql installer "MySQL Installer 8.0.31" and install all default settings(no need for downloading visual studio).
+2.mysql workbench and shell are the most required ones.
+
+3.start mysql workbench.
+
+
+4.click in schemas on down left.
+5.click on file->new query tab
+6.in the query tab you can run the queries.
+
+7.create new db.
+8.refresh to see changes.
+9.then create table.
